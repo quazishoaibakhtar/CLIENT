@@ -1,0 +1,41 @@
+
+
+.status {
+    width: 100vw;
+    height: 87vh;
+   border-top: 35px solid rgb(249, 249, 249); 
+   border-bottom: 35px solid rgb(249, 249, 249);
+}
+
+
+
+.ours-upA {
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+ margin-top: 70px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:2.5rem;
+   font-weight: 700;
+
+}
+
+
+.ours-downA {
+   
+   
+    text-align: center;
+   
+    
+
+}
+
+
+.ours-down2A {
+   
+    
+    text-align: center;
+   
+
+}
+

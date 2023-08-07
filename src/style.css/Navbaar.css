@@ -1,0 +1,39 @@
+.nav {
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    background-color: #1f1f26;
+    display: flex;
+    
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.phtext {
+    
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+line-height: 26px;
+font-size: 26px;
+letter-spacing: normal;
+}
+.select {
+display: flex;
+gap: 40px;
+list-style: none;
+margin-left: 200px;
+}
+.arr {
+   
+}
+
+img {
+  width: 70px;
+  height: 55px;
+  margin-left: -30px;
+}
