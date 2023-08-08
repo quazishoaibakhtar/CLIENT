@@ -15,9 +15,10 @@ const Hero = () => {
           <motion.div
             className="textup"
             initial="hidden"
-            animate="visible"
+            whileInView="visible"
             transition={{ duration: 0.8, ease: "easeOut" }}
             variants={variants}
+            viewport={{ once: true }}
           >
             The Road To Physical Therapy Mastery: Learn The Essential Components
             That Make You Stand Out
@@ -25,9 +26,11 @@ const Hero = () => {
           <motion.div
             className="chotatext"
             initial={{ opacity: 0, y: 90 }}
-            animate="visible"
+            whileInView="visible"
             transition={{ duration: 0.8, ease: "easeOut" }}
             variants={variants}
+            animateOnce={true}
+            viewport={{ once: true }}
           >
             It's a world which brings the most advanced and quality courses
             related to Physiotherapy and healthcare. Top national and

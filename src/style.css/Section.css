@@ -1,154 +1,145 @@
-.sec{
-    width: 100vw;
-    height: 115vh;
+.sec {
+  width: 100vw;
+  height: 115vh;
 }
-
 
 .ours-up {
-    width: 30vw;
-    margin: auto;
-    text-align: center;
-   margin-top: 70px;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size:2.5rem;
-   font-weight: 700;
-
+  width: 30vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
-
 
 .ours-down {
-   
-    
-    text-align: center;
-    margin-top: 20px;
-    
-
+  text-align: center;
+  margin-top: 20px;
 }
 
-
 .ours-down2 {
-   
-    
-    text-align: center;
-   
-
+  text-align: center;
 }
 
 .ours-down3 {
-   
-    
-    text-align: center;
-    margin-bottom: 50px;
-
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .tabedia {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .btn1 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    border: none;
-   font-size: x-small;
-   color: orange;
-   background-color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: none;
+  font-size: x-small;
+  color: orange;
+  background-color: white;
 }
-
+.btn1:hover {
+  color: rgb(252, 100, 6);
+}
 
 .tabedia-hand {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    font-size: small;
-   font-weight: 100;
-    color: grey;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: small;
+  font-weight: 100;
+  color: grey;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 .cards {
-    margin-top: -20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    font-size: larger;
-    font-weight: 600;
-  
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-size: larger;
+  font-weight: 600;
 }
 .card {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
-    font-size: larger;
-    width: 23%;
-    height: 75vh;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-shadow: 0 4px 8px rgba(0.3, 0.3, 0.3, 0.3);
+  font-size: larger;
+  width: 23%;
+  height: 75vh;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
 }
 
-
 .btnread {
-    margin-top: 65px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-   border: none;
-   font-size: x-small;
-   color: orange;
-   background-color: white;
+  margin-top: 65px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  border: none;
+  font-size: x-small;
+  color: orange;
+  background-color: white;
+}
+.btnread:hover {
+  cursor: pointer;
+  color: rgb(252, 72, 6);
 }
 
 .small-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 20vw;
-    font-size: small;
-   font-weight: 100;
-    color: grey;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 20vw;
+  font-size: small;
+  font-weight: 100;
+  color: grey;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
-
 .sta {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .neu {
-    
-    margin-bottom: 10px;
-    margin-left: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .stab {
-    margin-bottom: 10px;
-    margin-left: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 .image {
-    width: 23vw;
-    height: 30vh;
-    border-radius: 20px 20px 0px 0px;
-    margin-left: 0.2px;
+  width: 23vw;
+  height: 30vh;
+  border-radius: 20px 20px 0px 0px;
+  margin-left: 0.2px;
 }
 .lod {
-    width: 100vw;
-    margin: auto;
-    text-align: center;
-    margin-top: 30px;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
 }
 .loadmore {
-width: 150px;
-height: 50px;
+  width: 150px;
+  height: 50px;
 
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size:1.2rem;
-   font-weight:300;
-   background-color: #ec4536;
-   color: white;
-   border-radius: 5px 5px 5px 5px;
-   border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-color: #ec4536;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+}
+.loadmore:hover {
+  cursor: pointer;
+  background-color: #df6358;
 }
