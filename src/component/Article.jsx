@@ -19,6 +19,7 @@ const Article = () => {
       >
         6 Reasons To Take Our Courses
       </motion.div>
+      <div className="Alltext">
       <motion.div
         className="ours-downA"
         initial="hidden"
@@ -49,6 +50,7 @@ const Article = () => {
       >
         And We make it HAPPEN..!!
       </motion.div>
+      </div>
       <motion.div
         className="batches"
         initial={{ opacity: 0, y: 250 }}

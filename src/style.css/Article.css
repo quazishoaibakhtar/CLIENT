@@ -1,144 +1,299 @@
-.Artcle {
-    width: 100vw;
-    height: 77vh;
-}
 
 
 
-.ours-upA {
-    width: 40vw;
-    margin: auto;
-    text-align: center;
- 
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-size:2.5rem;
-   font-weight: 700;
 
-}
+/* Desktops and Laptops */
+@media (min-width: 1200px) {
+    /* CSS styles for desktops and laptops */
 
-
-.ours-downA {
-   
-   
-    text-align: center;
-    margin-top: 20px;
-    
-
-}
-
-
-.ours-down2A {
-   
-    
-    text-align: center;
-   
-
-}
-
-.ours-down3A {
-   
-    
-    text-align: center;
-    margin-bottom: 50px;
-
-}
-
-
-
-.batches {
-    width: 100vw;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-block: 20px;
+    .Artcle {
+        width: 100vw;
+        height: 70vh;
+    }
     
     
-}
-
-
-.batch {
-    width: 330px;
-    height: 130px;
-    border: 1px solid #c4c2c2;
-    display: flex;
-    justify-content: space-around;
-   border-radius: 2px 2px 2px 2px;
-    padding: 10px;
-}
-
-.immg {
-    margin-left: 7px;
-    margin-top: 40px;
-}
-.t1 {
-    font-size: larger;
-    font-weight: 500;
-    margin-top: 20px;
-    margin-left: 7px;
-}
-
-.t2 {
-    margin-top: 2px;
-    margin-left: 7px;
-    font-size: small;
-    font-weight: 450;
-    color: rgb(42, 41, 41);
-}
-
-.t3 {
-   
+    
+    .ours-upA {
+        width: 40vw;
+        margin: auto;
+        text-align: center;
+     
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size:2.5rem;
+       font-weight: 700;
+    
+    }
+    
+    
+    .ours-downA {
        
+       
+        text-align: center;
+        margin-top: 20px;
+        
+    
+    }
+    
+    
+    .ours-down2A {
+       
+        
+        text-align: center;
+       
+    
+    }
+    
+    .ours-down3A {
+       
+        
+        text-align: center;
+        margin-bottom: 50px;
+    
+    }
+    
+    
+    
+    .batches {
+        width: 100vw;
+        display: flex;
+        
+        gap: 20px;
+        justify-content: center;
+        margin-block: 20px;
+        
+        
+    }
+    
+    
+    .batch {
+        width: 330px;
+        height: 130px;
+        border: 1px solid #c4c2c2;
+        display: flex;
+        justify-content: space-around;
+       border-radius: 2px 2px 2px 2px;
+        padding: 10px;
+    }
+    
+    .immg {
+        margin-left: 7px;
+        margin-top: 40px;
+    }
+    .t1 {
+        font-size: larger;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 7px;
+    }
+    
+    .t2 {
+        margin-top: 2px;
         margin-left: 7px;
         font-size: small;
         font-weight: 450;
         color: rgb(42, 41, 41);
-}
-
-.t4 {
-    margin-left: 7px;
-    font-size: small;
-        font-weight: 450;
-        color: rgb(42, 41, 41);
-}
-
-
-
-.immga {
-    margin-left: 7px;
-    margin-top: 40px;
-}
-.t1a {
-    font-size: larger;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.t2b {
-    margin-top: 2px;
-    margin-left: 20px;
-    font-size: small;
-    font-weight: 450;
-    color: rgb(42, 41, 41);
-}
-
-.t3c {
-   
+    }
+    
+    .t3 {
        
-    margin-left: 20px;
+           
+            margin-left: 7px;
+            font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    .t4 {
+        margin-left: 7px;
+        font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    
+    
+    .immga {
+        margin-left: 7px;
+        margin-top: 40px;
+    }
+    .t1a {
+        font-size: larger;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .t2b {
+        margin-top: 2px;
+        margin-left: 20px;
         font-size: small;
         font-weight: 450;
         color: rgb(42, 41, 41);
-}
+    }
+    
+    .t3c {
+       
+           
+        margin-left: 20px;
+            font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    .t4d {
+        margin-left: 20px;
+        font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    
+    
 
-.t4d {
-    margin-left: 20px;
-    font-size: small;
+  }
+  
+  /* Tablets */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    /* CSS styles for tablets */
+  }
+  
+  /* Landscape-oriented Smartphones */
+  @media (min-width: 370px) and (max-width: 896px) {
+    /* CSS styles for landscape-oriented smartphones */
+    
+    .Artcle {
+        width: 100vw;
+        height: 150vh;
+        margin-top: 40px;
+    }
+    
+    
+    
+    .ours-upA {
+        width: 70vw;
+        margin: auto;
+        text-align: center;
+     
+       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size:1.7rem;
+       font-weight: 700;
+    
+    }
+    
+
+    .Alltext {
+        width: 75vw;
+       margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        font-size: small;
+    }
+
+    
+    
+    
+    .batches {
+        width: 95vw;
+       
+        display: flex;
+        flex-direction: column;
+       
+        gap: 20px;
+        
+        margin-block: 20px;
+        
+        
+    }
+    
+    
+    .batch {
+        width: 330px;
+        height: 130px;
+        margin: auto;
+        border: 1px solid #c4c2c2;
+        display: flex;
+        justify-content: space-around;
+       border-radius: 2px 2px 2px 2px;
+        padding: 10px;
+    }
+    
+    .immg {
+        margin-left: 7px;
+        margin-top: 40px;
+    }
+    .t1 {
+        font-size: larger;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-left: 7px;
+    }
+    
+    .t2 {
+        margin-top: 2px;
+        margin-left: 7px;
+        font-size: small;
         font-weight: 450;
         color: rgb(42, 41, 41);
-}
-
-
-
-
-
+    }
+    
+    .t3 {
+       
+           
+            margin-left: 7px;
+            font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    .t4 {
+        margin-left: 7px;
+        font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    
+    
+    .immga {
+        margin-left: 7px;
+        margin-top: 40px;
+    }
+    .t1a {
+        font-size: larger;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .t2b {
+        margin-top: 2px;
+        margin-left: 20px;
+        font-size: small;
+        font-weight: 450;
+        color: rgb(42, 41, 41);
+    }
+    
+    .t3c {
+       
+           
+        margin-left: 20px;
+            font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    .t4d {
+        margin-left: 20px;
+        font-size: small;
+            font-weight: 450;
+            color: rgb(42, 41, 41);
+    }
+    
+    
+   
+  }
+  
+  /* Portrait-oriented Smartphones */
+  @media (max-width: 479px) {
+    /* CSS styles for portrait-oriented smartphones */
+  }

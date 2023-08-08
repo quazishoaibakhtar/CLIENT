@@ -12,7 +12,7 @@ const Status = () => {
     <div>
       <div className="status">
         <motion.div
-          className="ours-upA"
+          className="ours-upA12"
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.7, ease: "easeOut" }}
@@ -22,7 +22,7 @@ const Status = () => {
           Know Your Instructors
         </motion.div>
         <motion.div
-          className="ours-downA"
+          className="ours-downA12"
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.7, ease: "easeOut" }}

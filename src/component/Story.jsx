@@ -12,7 +12,7 @@ const Story = () => {
   return (
     <div className="story">
       <motion.div
-        className="ours-upA"
+        className="ours-upA0"
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 0.7, ease: "easeOut" }}
@@ -22,7 +22,7 @@ const Story = () => {
         What Professionals Say
       </motion.div>
       <motion.div
-        className="ours-downA"
+        className="ours-downA0"
         initial="hidden"
         whileInView="visible"
         transition={{ duration: 0.7, ease: "easeOut" }}
@@ -35,7 +35,7 @@ const Story = () => {
 
       <div className="container" style={{ width: "65%", margin: "auto" }}>
         <img src={img1} alt="" style={{ width: "270px", height: "400px" }} />
-        <FeedbackSlider />
+        <FeedbackSlider /> 
         <img src={img1} alt="" style={{ width: "270px", height: "400px" }} />
       </div>
     </div>

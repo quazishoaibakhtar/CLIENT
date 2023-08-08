@@ -31,7 +31,7 @@ const Footer = () => {
           We would love to hear from you..!!{" "}
         </motion.div>
         <div className="inb">
-          <input type="text" placeholder="Your Email Address" />
+          <input type="text" placeholder="Your Email Address" /> <br />
           <button>Subscribe</button>
         </div>
       </div>

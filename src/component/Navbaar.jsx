@@ -11,18 +11,19 @@ const Navbaar = () => {
   <div>
     <div className="nav">
     <div className="logo-text">
-    <img src={logo}  alt="" />
+    <img className="logo" src={logo}  alt="" />
     <div className="phtext">Physioneeds Academy	</div>
     </div>
-    <div >
-        <ul className="select">
+    <div>
+    <button className="select2"><i class="fa fa-bars"></i></button>
+       <ul className="select">
             <li>Home</li>
             <li>SELECT  <FaAngleDown /></li>
             <li>COURSES <FaAngleDown /></li>
             <li>MEMBERS <FaAngleDown /></li>
             <li>VERIFY <FaAngleDown /></li>
             <li>OTHERS <FaAngleDown /></li>
-        </ul>
+        </ul> 
     </div>
     </div>
    

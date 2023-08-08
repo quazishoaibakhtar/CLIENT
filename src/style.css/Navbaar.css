@@ -1,4 +1,13 @@
-.nav {
+
+/* Desktops and Laptops */
+@media (min-width: 1200px) {
+  /* CSS styles for desktops and laptops */
+  .select2{
+    display: none;
+  }
+
+
+  .nav {
     width: 100vw;
     height: 10vh;
     color: white;
@@ -28,12 +37,80 @@ gap: 40px;
 list-style: none;
 margin-left: 200px;
 }
-.arr {
-   
-}
+
+
+
 
 img {
   width: 70px;
   height: 55px;
   margin-left: -30px;
+}
+
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* CSS styles for tablets */
+}
+
+/* Landscape-oriented Smartphones */
+@media (min-width: 370px) and (max-width: 896px) {
+  /* CSS styles for landscape-oriented smartphones */
+
+  .nav {
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    background-color: #1f1f26;
+    display: flex;
+    justify-content: center;
+  gap: 150px;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.phtext {
+    
+ display: none;
+}
+
+
+.select {
+display: none;
+
+}
+
+.select2 {
+  
+  width: 40px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border: none;
+  
+ 
+}
+
+
+img {
+  width: 125px;
+  height: 80px;
+ margin-left: -45px;
+}
+
+}
+
+/* Portrait-oriented Smartphones */
+@media (max-width: 479px) {
+  /* CSS styles for portrait-oriented smartphones */
 }

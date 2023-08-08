@@ -1,62 +1,154 @@
-.Hero {
-  width: 100vw;
-  height: 82vh;
-  background-color: aquamarine;
-  background-image: url("../images/20230208_165619-scaled.jpg");
-  background-size: cover;
-  object-fit: cover;
-  opacity: 0.9;
-  background-blend-mode: multiply;
+
+
+
+/* Desktops and Laptops */
+@media (min-width: 1200px) {
+  /* CSS styles for desktops and laptops */
+
+  .Hero {
+    width: 100vw;
+    height: 82vh;
+    
+    background-image: url("../images/20230208_165619-scaled.jpg");
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.9;
+    background-blend-mode: multiply;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100%;
+    color: white;
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heroimg {
+    margin-bottom: 78px;
+    width: 550px;
+    height: 300px;
+    margin-right: 200px;
+  }
+  
+  .text-btn {
+    margin-bottom: 30px;
+    width: 30vw;
+    text-align: center;
+    margin-left: 220px;
+  }
+  
+  .btn {
+    margin-top: 25px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    padding-inline: 20px;
+    border: none;
+  }
+  
+  .textup {
+    width: 30vw;
+  
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .chotatext {
+    width: 30vw;
+  
+    margin-top: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+    font-size: medium;
+  }
+  
+  
+
 }
 
-.container {
-  width: 100vw;
-  height: 100%;
-  color: white;
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* CSS styles for tablets */
 }
 
-.heroimg {
-  margin-bottom: 78px;
-  width: 550px;
-  height: 300px;
-  margin-right: 200px;
+/* Landscape-oriented Smartphones */
+@media (min-width: 370px) and (max-width: 896px){
+  /* CSS styles for landscape-oriented smartphones */
+  .Hero {
+    width: 100vw;
+    height: 82vh;
+    
+    background-image: url("../images/20230208_165619-scaled.jpg");
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.9;
+    background-blend-mode: multiply;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100%;
+    color: white;
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .heroimg {
+   display: none;
+  }
+  
+  .text-btn {
+   
+    width: 100vw;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .btn {
+    margin-top: 25px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    padding-inline: 20px;
+    border: none;
+  }
+  
+  .textup {
+    width: 90vw;
+  
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+  }
+  
+  .chotatext {
+    width: 90vw;
+  
+   
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+    font-size: medium;
+  }
+  
+  
+
+
 }
 
-.text-btn {
-  margin-bottom: 30px;
-  width: 30vw;
-  text-align: center;
-  margin-left: 220px;
-}
-
-.btn {
-  margin-top: 25px;
-  background-color: orangered;
-  color: white;
-  height: 40px;
-  padding-inline: 20px;
-  border: none;
-}
-
-.textup {
-  width: 30vw;
-
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 2.2rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.chotatext {
-  width: 30vw;
-
-  margin-top: 25px;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-
-  font-size: medium;
+/* Portrait-oriented Smartphones */
+@media (max-width: 479px) {
+  /* CSS styles for portrait-oriented smartphones */
 }

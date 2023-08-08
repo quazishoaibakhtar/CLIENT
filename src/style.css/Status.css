@@ -1,5 +1,14 @@
 
 
+
+/* Desktops and Laptops */
+@media (min-width: 1200px) {
+    /* CSS styles for desktops and laptops */
+
+
+
+    
+
 .status {
     width: 100vw;
     height: 87vh;
@@ -8,8 +17,8 @@
 }
 
 
-
-.ours-upA {
+ 
+.ours-upA12 {
     width: 40vw;
     margin: auto;
     text-align: center;
@@ -21,7 +30,7 @@
 }
 
 
-.ours-downA {
+.ours-downA12 {
    
    
     text-align: center;
@@ -31,11 +40,53 @@
 }
 
 
-.ours-down2A {
-   
+  }
+  
+  /* Tablets */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    /* CSS styles for tablets */
+  }
+  
+  /* Landscape-oriented Smartphones */
+  @media  (min-width: 370px) and (max-width: 896px) {
+    /* CSS styles for landscape-oriented smartphones */
+
+
     
+.status {
+    width: 100vw;
+    height: 70vh;
+   border-top: 35px solid rgb(249, 249, 249); 
+   border-bottom: 35px solid rgb(249, 249, 249);
+}
+
+
+ 
+.ours-upA12 {
+    width: 100vw;
+    margin: auto;
     text-align: center;
-   
+ margin-top: 30px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:1.5rem;
+   font-weight: 700;
 
 }
+
+
+.ours-downA12 {
+   width: 90vw;
+   font-size: small;
+    text-align: center;
+   margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+  }
+  
+  /* Portrait-oriented Smartphones */
+  @media (max-width: 479px) {
+    /* CSS styles for portrait-oriented smartphones */
+  }
 
