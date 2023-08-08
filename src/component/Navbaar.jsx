@@ -5,8 +5,8 @@ import "../style.css/Navbaar.css"
 
 const Navbaar = () => {
 
-    const imageWidth = 300;
-  const imageHeight = 210;
+  //   const imageWidth = 300;
+  // const imageHeight = 210;
   return (
   <div>
     <div className="nav">
