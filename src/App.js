@@ -9,6 +9,7 @@ import Story from "./component/Story";
 import Schedule from "./component/Schedule";
 import Footer from "./component/Footer";
 
+
 const App = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const App = () => {
       <Story />
       <Schedule />
       <Footer />
+      
     </div>
   );
 };

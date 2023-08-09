@@ -2,6 +2,7 @@ import React from "react";
 import "../style.css/Story.css";
 import { motion } from "framer-motion";
 
+
 import img1 from "../images/Dr-Pankaj-Surange.jpg";
 
 const Story = () => {
@@ -37,7 +38,7 @@ const Story = () => {
         
      
       <video controls style={{ width: "320px", height: "400px" }}>
-        <source src="your-video-url.mp4" type="video/mp4" />
+        <source src={"../videoes/physiotherapy video1.mp4"} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     
@@ -50,7 +51,7 @@ const Story = () => {
       
       
       <video controls style={{ width: "320px", height: "400px" }}>
-        <source src="your-video-url.mp4" type="video/mp4" />
+        <source src={"../videoes/pexels-rodnae-productions-6130538 (1080p).mp4"} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     

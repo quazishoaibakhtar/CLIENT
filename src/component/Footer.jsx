@@ -32,7 +32,7 @@ const Footer = () => {
         </motion.div>
         <div className="inb">
           <input type="text" placeholder="Your Email Address" /> <br />
-          <button>Subscribe</button>
+          <button className="sbtn">Subscribe</button>
         </div>
       </div>
 
