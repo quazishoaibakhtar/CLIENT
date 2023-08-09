@@ -1,17 +1,144 @@
-.story {
-  width: 100vw;
-  height: 105vh;
-}
-.ours-upA0 {
-  width: 40vw;
+
+
+/* Desktops and Laptops */
+@media (min-width: 1200px) {
+  /* CSS styles for desktops and laptops */
+
+  .story {
+    width: 100vw;
+    height: 105vh;
+    
+  }
+  .ours-upA0 {
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+  margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .ours-downA0 {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+  }
+  
+.containerxy {
+  width: 80%;
   margin: auto;
-  text-align: center;
-  margin-top: 70px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  
+}  
+
+
+.firtext {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: grey;
+  margin-top: 30px;
+  padding: 10px;
+
 }
 
-.ours-downA0 {
-  text-align: center;
+.secondtext {
+  font-size: medium;
+  font: italic;
+}
+
+.midtext {
+ width: 100vw;
+ height: 30vh;
+ text-align: center;
+  background-color: beige;
+  box-shadow: 10px 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* CSS styles for tablets */
+}
+
+/* Landscape-oriented Smartphones */
+@media (min-width: 370px) and (max-width: 896px) {
+
+
+
+  /* CSS styles for landscape-oriented smartphones */
+
+
+
+  .story {
+    width: 100vw;
+    height: 175vh;
+  
+    
+  }
+  .ours-upA0 {
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+  margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .ours-downA0 {
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    color: grey;
+  }
+  
+.containerxy {
+  width: 80%;
+  margin: auto;
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  
+}  
+
+
+.firtext {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: grey;
+  margin-top: 30px;
+  padding: 10px;
+
+}
+
+.secondtext {
+  font-size: medium;
+  font: italic;
+}
+
+.midtext {
+ width: 100vw;
+ height: 30vh;
+ text-align: center;
+  background-color: beige;
+  box-shadow: 10px 10px 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+
+}
+
+/* Portrait-oriented Smartphones */
+@media (max-width: 479px) {
+  /* CSS styles for portrait-oriented smartphones */
 }

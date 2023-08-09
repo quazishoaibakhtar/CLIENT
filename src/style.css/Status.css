@@ -11,7 +11,7 @@
 
 .status {
     width: 100vw;
-    height: 87vh;
+    height: 110vh;
    border-top: 35px solid rgb(249, 249, 249); 
    border-bottom: 35px solid rgb(249, 249, 249);
 }
@@ -55,7 +55,7 @@
     
 .status {
     width: 100vw;
-    height: 70vh;
+    height: 110vh;
    border-top: 35px solid rgb(249, 249, 249); 
    border-bottom: 35px solid rgb(249, 249, 249);
 }

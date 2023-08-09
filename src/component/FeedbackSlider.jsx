@@ -1,43 +1,44 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Card from "./Card";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import "../style.css/Feedback.css"
 
-const FeedbackSlider = () => {
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    
-    slidesToScroll: 1, // Changed to 1 for individual card scroll
-    autoplay: true, // Auto-moving slider
-    
-    autoplaySpeed: 3000,
+function FeedbackSlider() {
+
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
   };
-  const cards = [
-    { title: "Card 1", content: "Content for Card 1", img:'https://physioneedsacademy.com/wp-content/uploads/2023/01/Dr-Pankaj-Surange-2.png', },
-    { title: "Card 2", content: "Content for Card 2", img:'https://physioneedsacademy.com/wp-content/uploads/2022/09/6-1.png', },
-    { title: "Card 3", content: "Content for Card 3", img: 'https://physioneedsacademy.com/wp-content/uploads/2022/09/2-1.png' },
-    { title: "Card 4", content: "Content for Card 4", img: 'https://physioneedsacademy.com/wp-content/uploads/2023/01/13.png' },
-    { title: "Card 5", content: "Content for Card 5", img: 'https://physioneedsacademy.com/wp-content/uploads/2022/09/4-1.png' },
 
-    // Add more cards as needed
-  ];
+
   return (
-    <div
-      className="carousel-container"
-      style={{ width: "40%", marginInline: "auto" }}
-    >
-      <Slider {...sliderSettings}>
-        {cards.map((card, index) => (
-          <div key={index}>
-            <Card title={card.title} content={card.content} image={card.img}/>
-          </div>
-        ))}
-      </Slider>
-    </div>
+  <div>
+    <Carousel responsive={responsive}
+      autoPlay={true}          // Enable auto-play
+      autoPlaySpeed={3000}>
+  
+    <div>itmem 1</div>
+    <div>itmem 1</div>
+    <div>itmem 1</div>
+</Carousel>
+  </div>
   );
-};
+}
 
 export default FeedbackSlider;
