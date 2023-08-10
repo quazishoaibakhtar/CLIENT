@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Firebase Deployment
+- `npm install -g firebase-tools` - first time
+- `firebase init` - first time or if needed again
+ --- on init: select `y`, then select `hosting`, then `existing project`, then directory name `build` or `public`, then `y` to configure our app as a single-page app. 
+- `npm run build`
+- `firebase deploy`
+
+## commands to change/multiple firebase login on mac:
+firebase login:add
+firebase login:list
+firebase login:use
+Example:
+
+firebase login:add david@example.com
+firebase login:add alice@example.com
+firebase login:add bob@example.com
+firebase login:use alice@example.com
+firebase login:list
+firebase deploy --only hosting # deploy as alice@example.com
+Get a URL printed to the terminal.
+
+firebase login --reauth
+Use that link in the browser with the needed profile.
+
+Still working, less convenient older answer
+
+The easiest way to handle this is to logout User-Alice and the login User-Bob.
+
+firebase logout
+firebase login
